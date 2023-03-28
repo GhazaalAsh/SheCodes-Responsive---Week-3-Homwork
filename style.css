@@ -132,7 +132,7 @@ h1.about {
 h2.greeting {
   margin-top: 100px;
 }
-.hidden-image {
+.hidden {
   display: none;
 }
 @media (max-width: 768px) {
@@ -158,10 +158,10 @@ h2.greeting {
   .navigation-links {
     font-size: 12px;
   }
-  .active-image {
+  .active {
     display: none;
   }
-  .hidden-image {
+  .hidden {
     display: block;
   }
   .small-image {
