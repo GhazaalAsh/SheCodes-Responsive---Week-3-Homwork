@@ -131,3 +131,15 @@ h1.about {
 h2.greeting {
   margin-top: 100px;
 }
+@media (max-width: 768px) {
+  .container-size {
+    margin: 0 30px;
+    padding: 0 20px 0 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .container-size {
+    margin: 0 40px;
+    padding: 0 25px 0 0;
+  }
+}
