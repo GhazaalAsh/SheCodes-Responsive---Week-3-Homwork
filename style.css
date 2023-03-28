@@ -132,6 +132,9 @@ h1.about {
 h2.greeting {
   margin-top: 100px;
 }
+.hidden-image {
+  display: none;
+}
 @media (max-width: 768px) {
   .container-size {
     margin: 0 30px;
@@ -154,6 +157,17 @@ h2.greeting {
   }
   .navigation-links {
     font-size: 12px;
+  }
+  .active-image {
+    display: none;
+  }
+  .hidden-image {
+    display: block;
+  }
+  .small-image {
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
