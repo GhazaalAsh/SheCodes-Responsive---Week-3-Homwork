@@ -134,12 +134,12 @@ h2.greeting {
 @media (max-width: 768px) {
   .container-size {
     margin: 0 30px;
-    padding: 0 20px 0 0;
+    padding: 0 10px 0 0;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
   .container-size {
     margin: 0 40px;
-    padding: 0 25px 0 0;
+    padding: 0 15px 0 0;
   }
 }
