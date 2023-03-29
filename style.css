@@ -137,7 +137,6 @@ h2.greeting {
 }
 @media (max-width: 768px) {
   .container-size {
-    margin: 0 30px;
     padding: 0 10px 0 0;
   }
   h1 {
@@ -165,9 +164,7 @@ h2.greeting {
     display: block;
   }
   .hidden-image {
-    display: flex;
-    justify-content: center;
-    padding-right: 30px;
+    padding-right: 40px;
   }
   .projct-button {
     display: block;
@@ -175,6 +172,9 @@ h2.greeting {
     margin-bottom: 25px;
     width: 150px;
     font-size: 14px;
+  }
+  .container {
+    margin: 0 auto;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
