@@ -171,8 +171,9 @@ h2.greeting {
     width: 150px;
     font-size: 14px;
   }
-  .container {
-    margin: 0 auto;
+  .about-image {
+    margin-bottom: 30px;
+    max-width: 70%;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -207,8 +208,9 @@ h2.greeting {
     width: 150px;
     font-size: 14px;
   }
-  .container {
-    margin: 0 auto;
+  .about-image {
+    margin-bottom: 30px;
+    max-width: 70%;
   }
 }
 @media (max-width: 399px) {
@@ -217,5 +219,9 @@ h2.greeting {
   }
   .nav-size {
     padding: 0 35px 0 0;
+  }
+  .about-image {
+    margin-bottom: 0;
+    max-height: 60%;
   }
 }
