@@ -138,7 +138,7 @@ h2.greeting {
 @media (max-width: 768px) {
   .nav-size {
     margin-left: 30px;
-    padding: 0 55px 0 0;
+    padding: 0 50px 0 0;
   }
   h1 {
     text-align: center;
@@ -178,7 +178,7 @@ h2.greeting {
 @media (min-width: 769px) and (max-width: 992px) {
   .nav-size {
     margin-left: 40px;
-    padding: 0 75px 0 0;
+    padding: 0 70px 0 0;
   }
   h1 {
     text-align: center;
@@ -187,6 +187,28 @@ h2.greeting {
   h2 {
     text-align: center;
     font-size: 60px;
+  }
+  .email-link {
+    font-size: 22px;
+  }
+  .navigation-links {
+    font-size: 12px;
+  }
+  .active {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+  .projct-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .container {
+    margin: 0 auto;
   }
 }
 @media (max-width: 399px) {
