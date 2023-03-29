@@ -136,8 +136,9 @@ h2.greeting {
   display: none;
 }
 @media (max-width: 768px) {
-  .container-size {
-    padding: 0 10px 0 0;
+  .nav-size {
+    margin-left: 30px;
+    padding: 0 55px 0 0;
   }
   h1 {
     text-align: center;
@@ -175,9 +176,9 @@ h2.greeting {
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
-  .container-size {
-    margin: 0 40px;
-    padding: 0 15px 0 0;
+  .nav-size {
+    margin-left: 40px;
+    padding: 0 75px 0 0;
   }
   h1 {
     text-align: center;
@@ -191,5 +192,8 @@ h2.greeting {
 @media (max-width: 399px) {
   .flag {
     display: block;
+  }
+  .nav-size {
+    padding: 0 35px 0 0;
   }
 }
