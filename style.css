@@ -163,9 +163,6 @@ h2.greeting {
   .hidden {
     display: block;
   }
-  .hidden-image {
-    padding-right: 40px;
-  }
   .projct-button {
     display: block;
     margin: 0 auto;
